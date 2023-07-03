@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: auto;
+    height: 4vh;
+}
+
+.navbar{
+    display: flex;
+    background-color: bisque;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vh;
+    padding: 10px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}

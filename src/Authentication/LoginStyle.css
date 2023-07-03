@@ -1,0 +1,45 @@
+.card2{
+    background-color: white;
+    color: rgb(75, 73, 73);
+    width: 600px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    filter: drop-shadow(.5rem .5rem 1rem rgb(102, 101, 101));
+    /* top: 50% ;
+    left: 50% ; */
+    transform: translate(50% , 50% );
+}
+
+.container1{
+    position: relative;
+}
+
+
+.card2 img{
+    width: auto;
+    height: 47px;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+input{
+    padding: 0.8vh;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+label{
+    padding-bottom: 10px;
+}
+
+.loginbtn{
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    width : 60px;
+}
